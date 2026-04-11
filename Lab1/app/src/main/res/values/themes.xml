@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Lab1" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:colorPrimary">@color/primary_blue</item>
+    <style name="Theme.Lab1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryDark">@color/accent_blue</item>
+        <item name="colorAccent">@color/check_accent</item>
         <item name="android:statusBarColor">@color/accent_blue</item>
         <item name="android:windowBackground">@color/background_soft</item>
     </style>
