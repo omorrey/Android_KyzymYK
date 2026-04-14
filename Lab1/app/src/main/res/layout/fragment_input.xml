@@ -87,5 +87,15 @@
             android:backgroundTint="@color/button_ok_bg"
             android:textColor="@color/white" />
 
+        <Button
+            android:id="@+id/buttonOpenStorage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Історія"
+            android:backgroundTint="@color/primary_blue"
+            android:textColor="@color/white" />
     </LinearLayout>
 </ScrollView>
